@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q-3 & A-3</title>
+    <link rel="stylesheet" href="styles3.css">
+</head>
+<body>
+    <div class="form-container">
+        <h1>Contact Us</h1>
+        <form>
+            <!-- Section 1: Basic Information -->
+            <div class="form-section">
+                <h2>Basic Information</h2>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            </div>
+
+            <!-- Section 2: Additional Information (with opacity) -->
+            <div class="form-section form-section--opacity">
+                <h2>Additional Information</h2>
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone" placeholder="Enter your phone number">
+
+                <label for="dob">Date of Birth:</label>
+                <input type="date" id="dob" name="dob">
+
+                <label for="color">Favorite Color:</label>
+                <input type="color" id="color" name="color" value="#ff0000">
+            </div>
+
+            <!-- Section 3: Message -->
+            <div class="form-section">
+                <h2>Your Message</h2>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" placeholder="Enter your message" rows="5" required></textarea>
+            </div>
+
+            <!-- Submit Button -->
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>

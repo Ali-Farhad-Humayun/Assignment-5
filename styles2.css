@@ -1,0 +1,36 @@
+/* Block: "text" */
+.text {
+    font-family: Arial, sans-serif;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Element: "text__paragraph" (base styling for all paragraphs) */
+.text__paragraph {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+/* Modifier: "text__paragraph--intro" (specific styling for the intro paragraph) */
+.text__paragraph--intro {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Modifier: "text__paragraph--highlight" (specific styling for the highlighted paragraph) */
+.text__paragraph--highlight {
+    background-color: yellow;
+    padding: 10px;
+    border: 2px solid orange;
+}
+
+/* Modifier: "text__paragraph--quote" (specific styling for the quote paragraph) */
+.text__paragraph--quote {
+    font-style: italic;
+    border-left: 4px solid #ccc;
+    padding-left: 10px;
+    color: #555;
+}
